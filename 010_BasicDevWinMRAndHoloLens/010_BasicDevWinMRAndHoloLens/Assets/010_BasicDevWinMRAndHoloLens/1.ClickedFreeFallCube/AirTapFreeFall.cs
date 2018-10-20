@@ -6,7 +6,6 @@ public class AirTapFreeFall : MonoBehaviour , IInputClickHandler{
     public void OnInputClicked(InputClickedEventData eventData)
     {
         //TODO:このGameObjectにRigidbodyのコンポーネントを追加する。
-        gameObject.AddComponent<Rigidbody>();
 
     }
 }
